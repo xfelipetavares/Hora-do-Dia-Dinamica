@@ -1,0 +1,52 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+:root{
+    font: normal 15pt Arial;
+}
+
+body {
+    background-color: #3897e9;
+    max-width: 800px;
+    min-width: 200px;
+    margin: auto;
+}
+header {
+    text-align: center;
+    color: white;
+    margin: 15px;
+}
+section{
+    background-color: white;
+    box-shadow: 0px 1px 3px black;
+    border-radius: 10px;
+    padding: 15px;
+    margin: 20px;
+}
+.hora-imagem img {
+    max-width: 300px;
+    min-width: 100px;
+    border-radius: 100%;
+    display: block;
+    margin: auto;
+
+}
+#hora-frase {
+    text-align: center;
+    display: block;
+    margin: 20px;  
+    font-size: 2em;  
+}
+#botao {
+    display: block;
+    text-align: center;
+    margin: auto;
+    margin-top: 20px;
+}
+
+footer {
+    text-align: center;
+    color: white;
+    margin: 20px;
+}
